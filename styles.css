@@ -42,12 +42,14 @@ h2 {
     padding-bottom: 0.5rem;
 }
 
-.gallery, .video-gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 1rem;
+.video-gallery {
+    display: flex;
+    flex-direction: column; /* Stacks videos vertically on smaller screens */
+    align-items: center;
 }
-
+.video-gallery video {
+    margin: 10px 0; /* Adds space between videos */
+}
 .gallery img {
     width: 100%;
     border-radius: 8px;
