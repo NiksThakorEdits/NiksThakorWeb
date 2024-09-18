@@ -5,11 +5,12 @@ body {
 }
 
 header {
-    background: #888;
-    color: #fec665;
-    padding: 1rem;
-    text-align: center;
+    background: #444; /* Header background color */
+    color: #fff; /* Text color */
+    padding: 1rem 2rem; /* Increase left and right padding */
+    text-align: center; /* Center-align the text */
 }
+
 .logo {
     max-width: 200px; /* Adjust width as needed */
     height: auto;     /* Maintain aspect ratio */
